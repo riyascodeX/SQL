@@ -1,0 +1,100 @@
+SQL/
+│
+├── 00_Setup/
+│   ├── 01_MySQL_Installation.md
+│   ├── 02_VSCode_Setup.md
+│   ├── 03_MySQL_Extension.md
+│   └── 04_Database_Connection.md
+│
+├── 01_Database/
+│   ├── 01_CREATE_DATABASE.sql
+│   ├── 02_USE_DATABASE.sql
+│   ├── 03_CREATE_TABLE.sql
+│   ├── 04_DATA_TYPES.sql
+│   ├── 05_CONSTRAINTS.sql
+│   └── 06_ALTER_TABLE.sql
+│
+├── 02_Data_Manipulation/
+│   ├── 01_INSERT.sql
+│   ├── 02_UPDATE.sql
+│   ├── 03_DELETE.sql
+│   └── 04_TRUNCATE.sql
+│
+├── 03_SELECT/
+│   ├── 01_SELECT.sql
+│   ├── 02_DISTINCT.sql
+│   ├── 03_ALIAS.sql
+│   ├── 04_WHERE.sql
+│   ├── 05_AND_OR_NOT.sql
+│   ├── 06_IN.sql
+│   ├── 07_BETWEEN.sql
+│   ├── 08_LIKE.sql
+│   ├── 09_NULL.sql
+│   └── 10_ORDER_BY.sql
+│
+├── 04_Aggregation/
+│   ├── 01_COUNT.sql
+│   ├── 02_SUM.sql
+│   ├── 03_AVG.sql
+│   ├── 04_MIN_MAX.sql
+│   ├── 05_GROUP_BY.sql
+│   └── 06_HAVING.sql
+│
+├── 05_Joins/
+│   ├── 01_INNER_JOIN.sql
+│   ├── 02_LEFT_JOIN.sql
+│   ├── 03_RIGHT_JOIN.sql
+│   └── 04_SELF_JOIN.sql
+│
+├── 06_Functions/
+│   ├── 01_String_Functions.sql
+│   ├── 02_Numeric_Functions.sql
+│   ├── 03_Date_Functions.sql
+│   └── 04_NULL_Functions.sql
+│
+├── 07_CASE/
+│   └── 01_CASE_WHEN.sql
+│
+├── 08_Subqueries/
+│   ├── 01_Subquery.sql
+│   ├── 02_Scalar_Subquery.sql
+│   ├── 03_Correlated_Subquery.sql
+│   └── 04_EXISTS.sql
+│
+├── 09_CTE/
+│   ├── 01_CTE.sql
+│   └── 02_Recursive_CTE.sql
+│
+├── 10_Window_Functions/
+│   ├── 01_PARTITION_BY.sql
+│   ├── 02_ROW_NUMBER.sql
+│   ├── 03_RANK.sql
+│   ├── 04_DENSE_RANK.sql
+│   ├── 05_LAG_LEAD.sql
+│   └── 06_RUNNING_TOTAL.sql
+│
+├── 11_Set_Operations/
+│   ├── 01_UNION.sql
+│   └── 02_UNION_ALL.sql
+│
+├── 12_Views/
+│   └── 01_CREATE_VIEW.sql
+│
+├── 13_Indexes/
+│   ├── 01_CREATE_INDEX.sql
+│   └── 02_INDEX_USAGE.sql
+│
+├── 14_Transactions/
+│   ├── 01_COMMIT.sql
+│   ├── 02_ROLLBACK.sql
+│   └── 03_SAVEPOINT.sql
+│
+├── 15_Database_Design/
+│   ├── 01_PRIMARY_KEY.sql
+│   ├── 02_FOREIGN_KEY.sql
+│   ├── 03_RELATIONSHIPS.md
+│   └── 04_NORMALIZATION.md
+│
+├── 16_Query_Optimization/
+│   ├── 01_EXPLAIN.sql
+│   └── 02_QUERY_OPTIMIZATION.sql
